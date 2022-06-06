@@ -81,16 +81,6 @@ public class Fila {
         return elemento;
     }
 
-    public int peek(){
-        if (!vaziaPrioridade()){
-            return filaPrioridade[frenteP];
-        }else if (vaziaPrioridade() && !vazia()){
-            return fila[frente];
-        }else {
-            System.out.println("Fila vazia");
-            return 0;
-        }
-
     }
 
 
@@ -98,4 +88,3 @@ public class Fila {
 
 
 
-}
